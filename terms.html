@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Service — 0.1% Alarm</title>
+  <style>
+:root {
+  --bg: #0d0f12;
+  --surface: #171a20;
+  --surface-border: #262a34;
+  --brand: #ff6a3d;
+  --brand-glow: rgba(255, 106, 61, 0.15);
+  --text-main: #f3f4f6;
+  --text-muted: #9ca3af;
+  --text-dim: #6b7280;
+  --radius: 12px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text-main);
+  line-height: 1.65;
+  padding: 0 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 36px 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--surface-border);
+}
+
+.brand-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--text-main);
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: -0.02em;
+}
+
+.brand-badge span {
+  color: var(--brand);
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+}
+
+nav a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.15s ease;
+}
+
+nav a:hover, nav a.active {
+  color: var(--brand);
+}
+
+main {
+  max-width: 840px;
+  margin: 40px auto 80px;
+}
+
+.content-card {
+  background-color: var(--surface);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius);
+  padding: 40px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+}
+
+h1 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.meta-date {
+  font-size: 0.88rem;
+  color: var(--text-dim);
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin: 32px 0 14px;
+  color: #fff;
+  border-left: 3px solid var(--brand);
+  padding-left: 10px;
+}
+
+h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 20px 0 8px;
+  color: var(--text-main);
+}
+
+p {
+  color: var(--text-muted);
+  margin-bottom: 16px;
+  font-size: 0.98rem;
+}
+
+ul {
+  list-style: disc inside;
+  margin-bottom: 20px;
+  color: var(--text-muted);
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.highlight-box {
+  background: var(--brand-glow);
+  border: 1px solid rgba(255, 106, 61, 0.35);
+  border-radius: var(--radius);
+  padding: 18px;
+  margin: 24px 0;
+}
+
+.highlight-box p {
+  color: #ffded4;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+a {
+  color: var(--brand);
+}
+
+footer {
+  max-width: 840px;
+  margin: 0 auto 40px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  border-top: 1px solid var(--surface-border);
+  padding-top: 24px;
+}
+
+@media (max-width: 600px) {
+  .content-card {
+    padding: 24px 18px;
+  }
+  header {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+}
+</style>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="brand-badge">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ff6a3d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="13" r="8"></circle>
+        <path d="M12 9v4l2 2"></path>
+        <path d="M5 3L2 6"></path>
+        <path d="M22 6L19 3"></path>
+      </svg>
+      0.1% <span>Alarm</span>
+    </a>
+    <nav>
+      <a href="privacy.html" class="">Privacy Policy</a>
+      <a href="terms.html" class="active">Terms of Service</a>
+      <a href="deletion.html" class="">Data Safety</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="content-card">
+      
+      <h1>Terms of Service</h1>
+      <p class="meta-date">Last Updated: November 6, 2026 &bull; Effective Date: November 6, 2026</p>
+
+      <h2>1. Acceptance of Terms</h2>
+      <p>By downloading, installing, or using <strong>0.1% Alarm</strong> ("the Application"), you agree to be bound by these Terms of Service. If you do not agree to these terms, do not use the Application.</p>
+
+      <h2>2. Description of Service</h2>
+      <p>0.1% Alarm provides an offline-first smart alarm service with custom wake-up challenges including Phone Shake motion, Brain Quiz questions, and On-Device Object Detection.</p>
+
+      <h2>3. 0.1% Pro Subscriptions & Trials</h2>
+      <ul>
+        <li><strong>Free Tier:</strong> Allows scheduling and ringing standard basic alarms without physical wake challenges.</li>
+        <li><strong>0.1% Pro:</strong> Grants full, unrestricted access to all wake-up challenges (Phone Shake, Brain Quiz, and AI Object Scan).</li>
+        <li><strong>Free Trial:</strong> New subscribers may receive a 3-day free trial on annual subscription plans. Unless cancelled at least 24 hours before the trial ends, the subscription will automatically convert to a paid subscription billed via Google Play.</li>
+        <li><strong>Managing & Cancelling:</strong> Subscriptions can be managed or cancelled at any time directly through the Google Play Store under <em>Account &gt; Payments &amp; Subscriptions &gt; Subscriptions</em>.</li>
+      </ul>
+
+      <h2>4. Disclaimers & Responsibility</h2>
+      <p>0.1% Alarm is engineered with resilient offline alarm architectures. However, the user remains responsible for:</p>
+      <ul>
+        <li>Ensuring their mobile device has sufficient battery charge.</li>
+        <li>Maintaining system volume and granting notification and alarm permissions required by the Android operating system.</li>
+        <li>Avoiding physical danger while performing wake challenges. Do not place objects or run challenges in hazardous environments.</li>
+      </ul>
+
+      <h2>5. Changes to These Terms</h2>
+      <p>We may update these Terms from time to time. Continued use of the Application following any updates signifies acceptance of the amended terms.</p>
+
+      <h2>6. Contact</h2>
+      <p>For questions or support regarding these Terms, contact <a href="mailto:work.shivprasadrahulwad@gmail.com">work.shivprasadrahulwad@gmail.com</a>.</p>
+    
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 0.1% Alarm. Developed by Shivprasad Rahulwad. All rights reserved.</p>
+    <p style="margin-top: 6px;">Contact: <a href="mailto:work.shivprasadrahulwad@gmail.com">work.shivprasadrahulwad@gmail.com</a></p>
+  </footer>
+</body>
+</html>

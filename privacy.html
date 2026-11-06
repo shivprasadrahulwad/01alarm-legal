@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — 0.1% Alarm</title>
+  <style>
+:root {
+  --bg: #0d0f12;
+  --surface: #171a20;
+  --surface-border: #262a34;
+  --brand: #ff6a3d;
+  --brand-glow: rgba(255, 106, 61, 0.15);
+  --text-main: #f3f4f6;
+  --text-muted: #9ca3af;
+  --text-dim: #6b7280;
+  --radius: 12px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text-main);
+  line-height: 1.65;
+  padding: 0 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 36px 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--surface-border);
+}
+
+.brand-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--text-main);
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: -0.02em;
+}
+
+.brand-badge span {
+  color: var(--brand);
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+}
+
+nav a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.15s ease;
+}
+
+nav a:hover, nav a.active {
+  color: var(--brand);
+}
+
+main {
+  max-width: 840px;
+  margin: 40px auto 80px;
+}
+
+.content-card {
+  background-color: var(--surface);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius);
+  padding: 40px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+}
+
+h1 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.meta-date {
+  font-size: 0.88rem;
+  color: var(--text-dim);
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin: 32px 0 14px;
+  color: #fff;
+  border-left: 3px solid var(--brand);
+  padding-left: 10px;
+}
+
+h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 20px 0 8px;
+  color: var(--text-main);
+}
+
+p {
+  color: var(--text-muted);
+  margin-bottom: 16px;
+  font-size: 0.98rem;
+}
+
+ul {
+  list-style: disc inside;
+  margin-bottom: 20px;
+  color: var(--text-muted);
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.highlight-box {
+  background: var(--brand-glow);
+  border: 1px solid rgba(255, 106, 61, 0.35);
+  border-radius: var(--radius);
+  padding: 18px;
+  margin: 24px 0;
+}
+
+.highlight-box p {
+  color: #ffded4;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+a {
+  color: var(--brand);
+}
+
+footer {
+  max-width: 840px;
+  margin: 0 auto 40px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  border-top: 1px solid var(--surface-border);
+  padding-top: 24px;
+}
+
+@media (max-width: 600px) {
+  .content-card {
+    padding: 24px 18px;
+  }
+  header {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+}
+</style>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="brand-badge">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ff6a3d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="13" r="8"></circle>
+        <path d="M12 9v4l2 2"></path>
+        <path d="M5 3L2 6"></path>
+        <path d="M22 6L19 3"></path>
+      </svg>
+      0.1% <span>Alarm</span>
+    </a>
+    <nav>
+      <a href="privacy.html" class="active">Privacy Policy</a>
+      <a href="terms.html" class="">Terms of Service</a>
+      <a href="deletion.html" class="">Data Safety</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="content-card">
+      
+      <h1>Privacy Policy</h1>
+      <p class="meta-date">Last Updated: November 6, 2026 &bull; Effective Date: November 6, 2026</p>
+
+      <div class="highlight-box">
+        <p><strong>100% On-Device & Offline Privacy:</strong> 0.1% Alarm is engineered as an offline-first wake application. Camera frames during object scan challenges are processed entirely on your device with local neural networks and are discarded instantly. No images or videos are ever saved, stored, or transmitted to any server.</p>
+      </div>
+
+      <h2>1. Overview</h2>
+      <p>This Privacy Policy explains how <strong>0.1% Alarm</strong> ("we", "us", or "our", package name: <code>com.sraoz.alarm</code>), developed by <strong>Shivprasad Rahulwad</strong>, handles your information. We strongly believe your morning routine and physical privacy should belong strictly to you.</p>
+
+      <h2>2. On-Device Vision AI Processing</h2>
+      <p>0.1% Alarm offers a physical wake challenge that asks you to scan household items (e.g., keyboard, dog, cup, refrigerator) to turn off your alarm.</p>
+      <ul>
+        <li><strong>Live Frame Processing:</strong> Video frames from your device camera are analyzed frame-by-frame in real time solely within device RAM using embedded, lightweight machine learning models (TensorFlow Lite).</li>
+        <li><strong>Zero Data Transmission:</strong> Camera frames are immediately released and destroyed after inference. No photos or video recordings are saved to device storage, and zero visual data is uploaded over the internet.</li>
+      </ul>
+
+      <h2>3. Device Permissions and Usage</h2>
+      <p>0.1% Alarm requests only the minimal system permissions required to provide its core alarm and wake functionality:</p>
+      <ul>
+        <li><strong>Camera (<code>android.permission.CAMERA</code>):</strong> Used only during active object detection wake-up challenges to identify the required object.</li>
+        <li><strong>Exact Alarms (<code>SCHEDULE_EXACT_ALARM</code> / <code>USE_EXACT_ALARM</code>):</strong> Essential to ensure your alarms ring precisely at the scheduled time without being silenced by Android battery optimizations or Doze mode.</li>
+        <li><strong>Notifications (<code>POST_NOTIFICATIONS</code>):</strong> Displays the active alarm screen, foreground service alerts, and upcoming alarm notifications.</li>
+        <li><strong>Vibration (<code>VIBRATE</code>):</strong> Vibrates the phone during an alarm ring.</li>
+        <li><strong>Device Boot (<code>RECEIVE_BOOT_COMPLETED</code>):</strong> Automatically re-schedules your active alarms after your device restarts.</li>
+        <li><strong>Audio / Storage (Optional):</strong> If you choose to set a custom ringtone from your device, temporary read access to that specific audio file is requested.</li>
+      </ul>
+
+      <h2>4. In-App Subscriptions & Billing</h2>
+      <p>0.1% Alarm offers an optional premium subscription (<strong>0.1% Pro</strong>) providing full access to physical wake challenges. Purchases and subscription status are managed securely via <strong>Google Play In-App Billing</strong> and <strong>RevenueCat SDK</strong>.</p>
+      <ul>
+        <li>We never collect, store, or have access to your credit card, bank details, or billing address. All financial transactions are processed directly by Google Play.</li>
+        <li>RevenueCat processes anonymous, pseudonymous purchase tokens to verify subscription validity and manage active entitlements across devices.</li>
+      </ul>
+
+      <h2>5. Analytics, Tracking & Advertising</h2>
+      <ul>
+        <li><strong>No Advertising:</strong> 0.1% Alarm contains zero third-party ads.</li>
+        <li><strong>No Telemetry / Tracking:</strong> We do not track your location, habits, or behavioral data.</li>
+        <li><strong>No Selling of Data:</strong> We never sell, rent, or monetize your personal information.</li>
+      </ul>
+
+      <h2>6. Children's Privacy</h2>
+      <p>0.1% Alarm does not knowingly collect or solicit personal information from children under the age of 13. The app does not collect personal identifiers from any user.</p>
+
+      <h2>7. Contact Information</h2>
+      <p>If you have any questions or feedback regarding this Privacy Policy, please contact:</p>
+      <p><strong>Developer:</strong> Shivprasad Rahulwad<br>
+      <strong>Email:</strong> <a href="mailto:work.shivprasadrahulwad@gmail.com">work.shivprasadrahulwad@gmail.com</a></p>
+    
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 0.1% Alarm. Developed by Shivprasad Rahulwad. All rights reserved.</p>
+    <p style="margin-top: 6px;">Contact: <a href="mailto:work.shivprasadrahulwad@gmail.com">work.shivprasadrahulwad@gmail.com</a></p>
+  </footer>
+</body>
+</html>
